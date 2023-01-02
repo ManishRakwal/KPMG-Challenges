@@ -12,7 +12,7 @@ location = "westus2"
 environment = "dev"
 
 #OS Information
-publisher = "OpenSogic"
+publisher = "OpenSource"
 offer = "CentOS"
 sku = "8.5"
 version = "latest"
