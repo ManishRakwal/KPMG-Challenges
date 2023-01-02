@@ -1,4 +1,4 @@
-resource "azure_network_interface" "nic1" {
+resource "azurerm_network_interface" "nic1" {
   name                = "nic1"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
@@ -13,7 +13,7 @@ resource "azure_network_interface" "nic1" {
   tags = "${var.tags}"
 }
 
-resource "azure_network_interface" "nic2" {
+resource "azurerm_network_interface" "nic2" {
   name                = "nic2"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
@@ -28,7 +28,7 @@ resource "azure_network_interface" "nic2" {
   tags = "${var.tags}"
 }
 
-resource "azure_network_interface" "nic3" {
+resource "azurerm_network_interface" "nic3" {
   name                = "nic3"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
