@@ -1,4 +1,4 @@
-resource "azure_public_ip" "IP" {
+resource "azurerm_public_ip" "IP" {
   name                = "public_ip"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
@@ -6,7 +6,7 @@ resource "azure_public_ip" "IP" {
   tags                = "${var.tags}"
 }
 
-resource "azure_public_ip" "IP2" {
+resource "azurerm_public_ip" "IP2" {
   name                = "public_ip2"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
@@ -14,7 +14,7 @@ resource "azure_public_ip" "IP2" {
   tags                = "${var.tags}"
 }
 
-resource "azure_public_ip" "IP3" {
+resource "azurerm_public_ip" "IP3" {
   name                = "public_ip3"
   location            = "${var.location}"
   resource_group_name = "${var.resource_group_name}"
